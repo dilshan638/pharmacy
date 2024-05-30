@@ -27,13 +27,13 @@ router.use(function (req, res, next) {
         next();
      })
 });
-//All Customers
+//Inventory List
 router.get('/', inventoryController.view);
 // Add Customer
 router.post('/add', inventoryController.add);
-//Soft Delete Customer
+//Soft Delete inventory
 router.post('/soft-delete', inventoryController.softDelete);
-//Hard Delete Customer
+//Hard Delete inventory
 router.post('/hard-delete', inventoryController.hardDelete);
 
    
