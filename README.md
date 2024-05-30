@@ -8,6 +8,7 @@
 # Clone the Repository (if you haven’t already):
 # git clone https://github.com/dilshan638/pharmacy.git
 # cd pharmacy
+# checkout dev branch
 
 # Install Dependencies:
 # npm install
